@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Alembic migrations cache
+alembic/versions/__pycache__/
+
+# IDE Settings (optional, based on your editor)
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
