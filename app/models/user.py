@@ -3,9 +3,10 @@ from sqlalchemy import Column, Integer, String, Boolean, ForeignKey, DateTime, f
 from sqlalchemy.orm import relationship
 from database import Base
 
+
 class User(Base):
     __tablename__ = 'user'
-    Id = Column(AUTO_INCREMENT, primary_key=True)
+    Id = Column(Integer , primary_key=True, autoincrement= True)
     FName = Column(String)
     LName = Column(String)
     Email = Column(String)
