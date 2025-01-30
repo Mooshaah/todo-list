@@ -12,7 +12,7 @@ config = context.config
 
 load_dotenv()
 
-# Get database URL from .env, fallback to alembic.ini
+# Get database URL from .env
 database_url = os.getenv('DATABASE_URL')
 if database_url:
     config.set_main_option("sqlalchemy.url", database_url)
